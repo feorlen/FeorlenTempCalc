@@ -13,7 +13,6 @@
 - (void)convertValue;
 - (void)convertCtoF;
 - (void)convertFtoC;
-- (void)onDoneButton;
 
 @end
 
@@ -55,6 +54,16 @@
 
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
     self.navigationItem.rightBarButtonItem = nil;
+    
+    if (textField == self.degCfield) {
+        [self convertCtoF];
+    }
+    else if (textField == self.degFfield) {
+        [self convertFtoC];
+    }
+    else {
+        // shouldn't happen
+    }
     return YES;
 }
 
@@ -86,7 +95,6 @@
 
 - (void)onDoneButton {
     [self.view endEditing:YES];
-    [self convertValue];
 }
 
 @end

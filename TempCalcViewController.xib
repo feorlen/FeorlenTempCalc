@@ -49,6 +49,10 @@
                 <outletCollection property="gestureRecognizers" destination="oA9-Db-s8V" appends="YES" id="OGZ-pi-bnM"/>
             </connections>
         </view>
-        <tapGestureRecognizer id="oA9-Db-s8V"/>
+        <tapGestureRecognizer id="oA9-Db-s8V">
+            <connections>
+                <action selector="onDoneButton" destination="-1" id="XTC-BH-vub"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
 </document>

@@ -13,5 +13,6 @@
 @property (nonatomic, strong) IBOutlet UITextField *degCfield;
 @property (nonatomic, strong) IBOutlet UITextField *degFfield;
 
+- (IBAction)onDoneButton;
 
 @end

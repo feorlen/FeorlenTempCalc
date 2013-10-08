@@ -19,6 +19,8 @@
 		CEE3E16E17FF32EE006EED53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE3E15617FF32EE006EED53 /* UIKit.framework */; };
 		CEE3E17617FF32EE006EED53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE3E17417FF32EE006EED53 /* InfoPlist.strings */; };
 		CEE3E17817FF32EE006EED53 /* FeorlenTempCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3E17717FF32EE006EED53 /* FeorlenTempCalcTests.m */; };
+		CEE3E18917FF3B1C006EED53 /* TempCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3E18717FF3B1C006EED53 /* TempCalcViewController.m */; };
+		CEE3E18A17FF3B1C006EED53 /* TempCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE3E18817FF3B1C006EED53 /* TempCalcViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CEE3E17317FF32EE006EED53 /* FeorlenTempCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeorlenTempCalcTests-Info.plist"; sourceTree = "<group>"; };
 		CEE3E17517FF32EE006EED53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEE3E17717FF32EE006EED53 /* FeorlenTempCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeorlenTempCalcTests.m; sourceTree = "<group>"; };
+		CEE3E18617FF3B1C006EED53 /* TempCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempCalcViewController.h; sourceTree = "<group>"; };
+		CEE3E18717FF3B1C006EED53 /* TempCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempCalcViewController.m; sourceTree = "<group>"; };
+		CEE3E18817FF3B1C006EED53 /* TempCalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempCalcViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		CEE3E14617FF32ED006EED53 = {
 			isa = PBXGroup;
 			children = (
+				CEE3E18617FF3B1C006EED53 /* TempCalcViewController.h */,
+				CEE3E18717FF3B1C006EED53 /* TempCalcViewController.m */,
+				CEE3E18817FF3B1C006EED53 /* TempCalcViewController.xib */,
 				CEE3E15817FF32EE006EED53 /* FeorlenTempCalc */,
 				CEE3E17117FF32EE006EED53 /* FeorlenTempCalcTests */,
 				CEE3E15117FF32EE006EED53 /* Frameworks */,
@@ -221,6 +229,7 @@
 			files = (
 				CEE3E15D17FF32EE006EED53 /* InfoPlist.strings in Resources */,
 				CEE3E16517FF32EE006EED53 /* Images.xcassets in Resources */,
+				CEE3E18A17FF3B1C006EED53 /* TempCalcViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				CEE3E16317FF32EE006EED53 /* AppDelegate.m in Sources */,
 				CEE3E15F17FF32EE006EED53 /* main.m in Sources */,
+				CEE3E18917FF3B1C006EED53 /* TempCalcViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
